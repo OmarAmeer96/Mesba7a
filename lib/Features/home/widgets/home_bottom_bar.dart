@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mesba7a_app/Features/add_zeker/views/add_zekr_view.dart';
 import 'package:mesba7a_app/Features/home/widgets/home_bottom_bar_item.dart';
 import 'package:mesba7a_app/utils/spacing.dart';
 
@@ -21,7 +22,14 @@ class HomeBottomBar extends StatelessWidget {
           icon: Icons.add,
           verticalPadding: 12,
           horizontalPadding: 50,
-          onTap: () {},
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const AddZekrView(),
+              ),
+            );
+          },
         ),
         horizontalSpace(16),
         HomeBottomBarItem(
