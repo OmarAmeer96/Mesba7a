@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mesba7a_app/Features/details/widgets/details_view_bottom_section.dart';
 import 'package:mesba7a_app/Features/details/widgets/details_view_top_section.dart';
-import 'package:mesba7a_app/utils/responsive.dart';
-import 'package:mesba7a_app/utils/spacing.dart';
+import 'package:mesba7a_app/Core/utils/responsive.dart';
+import 'package:mesba7a_app/Core/utils/spacing.dart';
 
 class DetailsView extends StatelessWidget {
   const DetailsView({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mesba7a_app/Features/home/widgets/home_bottom_bar.dart';
 import 'package:mesba7a_app/Features/home/widgets/sample_list_of_addads.dart';
-import 'package:mesba7a_app/utils/responsive.dart';
+import 'package:mesba7a_app/Core/utils/responsive.dart';
 
 class AddadItemsList extends StatelessWidget {
   const AddadItemsList({

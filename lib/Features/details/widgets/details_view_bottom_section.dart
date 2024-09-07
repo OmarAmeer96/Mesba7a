@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mesba7a_app/utils/responsive.dart';
-import 'package:mesba7a_app/utils/spacing.dart';
+import 'package:mesba7a_app/Core/utils/responsive.dart';
+import 'package:mesba7a_app/Core/utils/spacing.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class DetailsViewBottomSection extends StatelessWidget {

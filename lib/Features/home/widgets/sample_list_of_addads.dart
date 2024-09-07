@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mesba7a_app/Features/details/views/details_view.dart';
 import 'package:mesba7a_app/Features/home/widgets/addad_item.dart';
-import 'package:mesba7a_app/utils/spacing.dart';
+import 'package:mesba7a_app/Core/utils/spacing.dart';
 
 class SampleListOfAddads extends StatelessWidget {
   const SampleListOfAddads({

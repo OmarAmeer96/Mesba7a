@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mesba7a_app/Features/add_zeker/widgets/add_zeker_view_container.dart';
 
 class AddZekrView extends StatelessWidget {
   const AddZekrView({super.key});
@@ -7,9 +8,7 @@ class AddZekrView extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: SafeArea(
-        child: Center(
-          child: Text('Add Zekr View'),
-        ),
+        child: AddZekerViewContainer(),
       ),
     );
   }
