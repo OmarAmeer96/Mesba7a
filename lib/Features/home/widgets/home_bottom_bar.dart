@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mesba7a_app/Features/home_view/widgets/home_bottom_bar_item.dart';
+import 'package:mesba7a_app/Features/home/widgets/home_bottom_bar_item.dart';
 import 'package:mesba7a_app/utils/spacing.dart';
 
 class HomeBottomBar extends StatelessWidget {

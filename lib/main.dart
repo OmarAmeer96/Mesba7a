@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:mesba7a_app/Features/home_view/views/home_view.dart';
+import 'package:mesba7a_app/Features/home/views/home_view.dart';
 import 'generated/l10n.dart';
 
 void main() async {

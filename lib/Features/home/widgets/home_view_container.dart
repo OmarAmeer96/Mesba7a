@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mesba7a_app/Features/home_view/widgets/addad_items_list.dart';
+import 'package:mesba7a_app/Features/home/widgets/addad_items_list.dart';
 
 class HomeViewContainer extends StatelessWidget {
   const HomeViewContainer({

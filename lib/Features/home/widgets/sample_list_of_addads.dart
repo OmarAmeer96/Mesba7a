@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mesba7a_app/Features/home_view/widgets/addad_item.dart';
+import 'package:mesba7a_app/Features/details/views/details_view.dart';
+import 'package:mesba7a_app/Features/home/widgets/addad_item.dart';
 import 'package:mesba7a_app/utils/spacing.dart';
 
 class SampleListOfAddads extends StatelessWidget {
@@ -23,7 +24,12 @@ class SampleListOfAddads extends StatelessWidget {
         verticalSpace(20),
         AddadItem(
           onTap: () {
-            
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const DetailsView(),
+              ),
+            );
           },
           title: 'العداد الافتراضي',
           todaysNumber: '',

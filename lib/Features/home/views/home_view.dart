@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mesba7a_app/Features/home_view/widgets/home_view_container.dart';
+import 'package:mesba7a_app/Features/home/widgets/home_view_container.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});

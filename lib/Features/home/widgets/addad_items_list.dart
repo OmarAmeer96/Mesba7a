@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mesba7a_app/Features/home_view/widgets/home_bottom_bar.dart';
-import 'package:mesba7a_app/Features/home_view/widgets/sample_list_of_addads.dart';
+import 'package:mesba7a_app/Features/home/widgets/home_bottom_bar.dart';
+import 'package:mesba7a_app/Features/home/widgets/sample_list_of_addads.dart';
 import 'package:mesba7a_app/utils/responsive.dart';
 
 class AddadItemsList extends StatelessWidget {
@@ -36,7 +36,7 @@ class AddadItemsList extends StatelessWidget {
               end: Alignment.bottomCenter,
             ),
           ),
-          margin: const EdgeInsets.only(top: 100),
+          margin: const EdgeInsets.only(top: 50),
           child: const SingleChildScrollView(
             child: SampleListOfAddads(),
           ),
